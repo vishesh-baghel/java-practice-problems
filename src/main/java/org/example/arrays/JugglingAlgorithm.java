@@ -33,6 +33,17 @@ public class JugglingAlgorithm {
             System.out.print(arr[i] + " ");
     }
 
+    void reverse(int[] arr, int start, int end) {
+        int temp;
+        while (start < end) {
+            temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+
     /*Function to get gcd of a and b*/
     int gcd(int a, int b) {
         if (b == 0)
