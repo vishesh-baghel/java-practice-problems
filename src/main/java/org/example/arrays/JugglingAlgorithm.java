@@ -5,23 +5,9 @@ public class JugglingAlgorithm {
     void leftRotate(int[] arr, int d, int n) {
         /* To handle if d >= n */
         d = d % n;
-        int i, j, k, temp;
-        int g_c_d = gcd(d, n);
-        for (i = 0; i < g_c_d; i++) {
-            /* move i-th values of blocks */
-            temp = arr[i];
-            j = i;
-            while (true) {
-                k = j + d;
-                if (k >= n)
-                    k = k - n;
-                if (k == i)
-                    break;
-                arr[j] = arr[k];
-                j = k;
-            }
-            arr[j] = temp;
-        }
+        reverse(arr, 0, d-1);
+        reverse(arr, d, n-1);
+        reverse(arr, 0, n-1);
     }
 
     /*UTILITY FUNCTIONS*/
