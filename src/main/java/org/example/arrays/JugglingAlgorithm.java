@@ -10,8 +10,6 @@ public class JugglingAlgorithm {
         reverse(arr, 0, n-1);
     }
 
-    /*UTILITY FUNCTIONS*/
-
     /* function to print an array */
     void printArray(int[] arr) {
         int i;
