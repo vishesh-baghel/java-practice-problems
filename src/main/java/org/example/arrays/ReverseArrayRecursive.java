@@ -2,15 +2,15 @@ package org.example.arrays;
 
 public class ReverseArrayRecursive {
 
-  static int[] reverse(int[] array, int startingIndex, int endingIndex) {
-    if (start >= end) {
+  static void reverse(int[] array, int startingIndex, int endingIndex) {
+    if (startingIndex >= endingIndex) {
       return;
     }
     int temp = array[0];
     int start = array[array.length - 1];
     int end = temp;
 
-    return reverse(array, start, end);
+    reverse(array, start, end);
   }
 
   void print(int[] array) {
