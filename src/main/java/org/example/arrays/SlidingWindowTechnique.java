@@ -16,9 +16,8 @@ public class SlidingWindowTechnique {
     System.out.println("current sum is: " + currentSum);
 
     int maxSum = currentSum;
-    currentSum = 0;
     for (int i = windowSize; i < array.length; i++) {
-      currentSum = currentSum + array[i] - array[i - windowSize];
+      currentSum += array[i] - array[i - windowSize];
       System.out.println("currentSum for " + i + " iteration is " + currentSum);
       maxSum = Math.max(maxSum, currentSum);
     }
@@ -27,8 +26,8 @@ public class SlidingWindowTechnique {
   public static void main(String[] args ) {
     int[] array = {16,12,9,19,11,8};
     int sum = calculateMaxSum(array, 3);
-    if (sum == 48) {
-      System.out.println("The calculated sum:" + sum + "is same as 48");
+    if (sum == 40) {
+      System.out.println("The calculated sum:" + sum + "is same as 40");
     } else {
       System.out.println("You fucked up!! This is the actual sum: " + sum);
     }
