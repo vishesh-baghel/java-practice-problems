@@ -28,11 +28,16 @@ public class PrefixSumProblem1 {
     int[] prefixSumArray = new int[inputArray.length];
     prefixSumArray[0] = inputArray[0];
     prefixSumArray[startIndex - 1] += 100;
-    prefixSumArray[endIndex] -= 100;
+    prefixSumArray[endIndex - 1] -= 100;
 
     for(int i = 1; i < inputArray.length; i++) {
       prefixSumArray[i] = inputArray[i] + inputArray[i - 1];
     }
+
+    for(int i = 1; i < inputArray.length; i++) {
+      prefixSumArray[i] = inputArray[i] + inputArray[i - 1];
+    }
+
 
     return prefixSumArray;
    }
