@@ -24,6 +24,13 @@ public class CheckIfArrayIsSorted {
         return true;
     }
 
+    /**
+     * This is a recursive solution to check if an array is sorted.
+     * @param inputArray the array to check
+     * @param size the size of the array
+     * @return true if the array is sorted, false otherwise
+     */
+
     private static boolean checkIfArrayIsSortedUsingRecursion(int[] inputArray, int size) {
        if (size == 1 || size == 0) return true;
        if (inputArray[size - 1] < inputArray[size - 2]) return false;

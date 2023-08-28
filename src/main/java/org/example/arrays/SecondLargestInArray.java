@@ -2,9 +2,9 @@ package org.example.arrays;
 
 public class SecondLargestInArray {
     public static void main(String[] args) {
-        int[] inputArray = {1, 4, 3};
+        int[] inputArray = {12, 35, 1, 10, 34, 1};
         int secondLargest = findSecondLargestInArray(inputArray);
-        System.out.println("the expected second largest element in the array is 3 and you found " + secondLargest);
+        System.out.println("the expected second largest element in the array is 34 and you found " + secondLargest);
     }
 
     private static int findSecondLargestInArray(int[] inputArray) {
