@@ -28,20 +28,19 @@ public class RemoveDuplicates {
     }
 
     static int[] removeDuplicates(int[] inputArray) {
-        if (inputArray.length == 1) {
-            return inputArray;
+        if (inputArray.length == 0 || inputArray.length == 1) {
+            return new int[0];
         }
-        int index = 1;
-        while (index < inputArray.length) {
-            if (inputArray[index - 1] == inputArray[index]) {
-                inputArray[index - 1] = inputArray[index];
+
+        int indexOfUniqueElement = 1;
+
+        for (int i = 1; i < inputArray.length; i++) {
+            if (inputArray[i] != inputArray[i - 1]) {
+                inputArray[indexOfUniqueElement++] = inputArray[i];
             }
-            index++;
         }
+
         return inputArray;
     }
 
-    static void deleteElement(int[] inputArray, int element) {
-
-    }
 }
