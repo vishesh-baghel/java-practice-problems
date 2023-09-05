@@ -34,3 +34,5 @@ j
 :src/main/java/org/example/arrays/SecondLargestInArray.java,0/6/06fcc509773fa5947d30d2d3011a8ea57281e676
 f
 6src/main/java/org/example/arrays/RemoveDuplicates.java,d/7/d74ec14178f0a5fd45e5409a005fadae98767485
+g
+7src/main/java/org/example/arrays/MoveZerosToTheEnd.java,a/b/ab865f8554af93ac71277b8115cc779f51e15365
