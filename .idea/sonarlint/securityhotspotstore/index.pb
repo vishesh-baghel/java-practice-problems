@@ -36,3 +36,7 @@ f
 6src/main/java/org/example/arrays/RemoveDuplicates.java,d/7/d74ec14178f0a5fd45e5409a005fadae98767485
 g
 7src/main/java/org/example/arrays/MoveZerosToTheEnd.java,a/b/ab865f8554af93ac71277b8115cc779f51e15365
+j
+:src/main/java/org/example/arrays/DeleteElementInArray.java,8/d/8dd196f2dc2de87267797b5d6da1999f09f17ce2
+k
+;src/main/java/org/example/arrays/ReverseArrayRecursive.java,f/2/f209aea28eff301488369a64b61fc65f47470325

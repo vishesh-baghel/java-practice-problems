@@ -2,7 +2,7 @@ package org.example.arrays;
 
 public class SecondLargestInArray {
     public static void main(String[] args) {
-        int[] inputArray = {12, 35, 1, 10, 34, 1};
+        int[] inputArray = {1, 1, 1};
         int secondLargest = findSecondLargestInArray(inputArray);
         System.out.println("the expected second largest element in the array is 34 and you found " + secondLargest);
     }
@@ -20,6 +20,10 @@ public class SecondLargestInArray {
                secondLargest = Math.max(secondLargest, inputArray[index]);
            }
            index++;
+        }
+
+        if (secondLargest == Integer.MIN_VALUE) {
+            return -1;
         }
         return secondLargest;
     }
