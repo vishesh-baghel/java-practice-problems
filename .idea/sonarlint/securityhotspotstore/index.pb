@@ -40,3 +40,7 @@ j
 :src/main/java/org/example/arrays/DeleteElementInArray.java,8/d/8dd196f2dc2de87267797b5d6da1999f09f17ce2
 k
 ;src/main/java/org/example/arrays/ReverseArrayRecursive.java,f/2/f209aea28eff301488369a64b61fc65f47470325
+m
+=src/main/java/org/example/arrays/ImmediateSmallerInArray.java,c/d/cdf90bf54c037b73e23ac9b6ed03dc25638dffe6
+t
+Dsrc/main/java/org/example/arrays/ImmediateGreaterElementInArray.java,3/c/3c2ecf91bcb0c6fee663c25f94386ee6f4616238
