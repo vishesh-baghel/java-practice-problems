@@ -19,4 +19,9 @@ public class ImmediateGreaterElementInArray {
         }
         return present;
     }
+    // This is a method to print the array
+    void print() {
+        //write the code for this method
+        System.out.println("This is a method to print the array");
+    }
 }

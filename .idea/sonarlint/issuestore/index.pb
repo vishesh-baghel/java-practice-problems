@@ -44,3 +44,5 @@ m
 =src/main/java/org/example/arrays/ImmediateSmallerInArray.java,c/d/cdf90bf54c037b73e23ac9b6ed03dc25638dffe6
 t
 Dsrc/main/java/org/example/arrays/ImmediateGreaterElementInArray.java,3/c/3c2ecf91bcb0c6fee663c25f94386ee6f4616238
+g
+7src/main/java/org/example/arrays/WhoHasTheMajority.java,f/2/f2ecfc07324cba0061f85de755d232a79ee5ff61
