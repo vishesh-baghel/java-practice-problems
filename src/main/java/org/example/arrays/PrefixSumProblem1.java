@@ -2,7 +2,9 @@ package org.example.arrays;
 
 public class PrefixSumProblem1 {
   /*
-   * Problem statement: Consider an array of size N with all initial values as 0. Perform given 'm' add operations from index 'a' to 'b' and evaluate highest element in array. An add operation adds 100 to all elements from index a to b (both inclusive).
+   * Problem statement: Consider an array of size N with all initial values as 0.
+   * Perform given 'm' add operations from index 'a' to 'b' and evaluate highest
+   * element in array. An add operation adds 100 to all elements from index a to b (both inclusive).
    * 
    * Input : n = 5 // We consider array {0, 0, 0, 0, 0}
         m = 3.
@@ -45,7 +47,7 @@ public class PrefixSumProblem1 {
    public static void main(String[] args) {
     int[] inputArray = {0, 0, 0, 0, 0};
     int requiredValueToAdd = 100;
-    int[] result = new int[inputArray.length];
+    int[] result;
 
     result = performAddOperations(inputArray, 2, 4, requiredValueToAdd);
     result = performAddOperations(inputArray, 1, 3, requiredValueToAdd);

@@ -46,3 +46,11 @@ t
 Dsrc/main/java/org/example/arrays/ImmediateGreaterElementInArray.java,3/c/3c2ecf91bcb0c6fee663c25f94386ee6f4616238
 g
 7src/main/java/org/example/arrays/WhoHasTheMajority.java,f/2/f2ecfc07324cba0061f85de755d232a79ee5ff61
+m
+=src/main/java/org/example/arrays/MaxAndMinElementInArray.java,f/c/fc34ae554d38365cbdf2ea0a0921ffe96410aa48
+b
+2src/main/java/org/example/arrays/ReverseArray.java,0/b/0b333c4a56bda757a46ad6a3d657c46ffb6c67f1
+o
+?src/main/java/org/example/recursion/SearchArrayRecursively.java,b/1/b1544483a04191ed7bca1006d1445948305e086f
+h
+8src/main/java/org/example/recursion/CheckPalindrome.java,6/1/61ccffcf81941abd684e55d0d9fec05cbba6de55
